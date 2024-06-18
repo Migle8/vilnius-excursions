@@ -1,0 +1,65 @@
+.loginBackground {
+    background-image: url("../assets/Vilnius.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    background-position: 60%;
+    height: 100vh;
+    min-width: 360px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.loginForm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10rem;
+}
+
+.mainHeader {
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    /* position: absolute; */
+    /* top: 10rem; */
+    /* padding-top: 10rem; */
+    text-align: center;
+}
+
+.loginPageForm {
+    /* background-color: aqua; */
+    /* width: 50rem; */
+    /* padding: 20rem 10%; */
+    /* margin: 5rem; */
+    /* width: 100%; */
+    display: flex;
+    z-index: 1;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: start; */
+    background-color: #0808087a;
+    /* margin-bottom: 20rem; */
+    /* margin-right: 20rem; */
+    padding: 2rem;
+    border-radius: 1.6rem;
+    margin-top: 15rem;
+    /* margin-right: 20rem; */
+    /* width: 50%; */
+}
+
+.loginText {
+    color: #fff;
+    /* text-align: center; */
+}
+
+.signupText {
+    color: #fff;
+    padding-left: 0.5rem;
+}
+
+.signupError {
+    color: red;
+}

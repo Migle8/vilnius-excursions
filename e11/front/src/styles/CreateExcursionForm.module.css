@@ -1,0 +1,33 @@
+.createExcursion {
+    margin-top: 10rem;
+}
+
+.createExcursionModal {
+    padding: 1rem;
+}
+
+.createExcursionCloseBtn {
+    display: flex;
+    justify-content: end;
+}
+
+.createExcursionHeader {
+    color: #fff;
+    text-align: center;
+}
+
+.errorStyle {
+    color: #ff3c3c;
+    font-size: 0.8rem;
+}
+
+.createExcursionButtons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: end;
+}
+
+.createExcursionCancelBtn {
+    border-color: #ffffff9d;
+    margin-right: 1rem;
+}

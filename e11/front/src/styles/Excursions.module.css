@@ -1,0 +1,46 @@
+.excursionsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    /* align-items: center; */
+}
+
+.excursionsPagination {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.excursionCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+.moreInfoBtn {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.editDeleteBtns {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.deleteBtn {
+    border-color: #ffffff9d;
+}

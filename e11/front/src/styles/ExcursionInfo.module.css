@@ -1,0 +1,100 @@
+.excursionBackBtn {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-top: 5rem;
+    margin-left: 1rem;
+}
+
+.excursionInfoPage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.excursionPage {
+    background-color: #0000008c;
+    border-radius: 1rem;
+    margin: 0 1rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.excursionInformation {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    padding: 0 2rem;
+}
+
+.excursionImage {
+    margin-bottom: 2rem;
+    max-width: 400px;
+}
+
+.excursionDate, .excursionTime, .excursionDuration, .excursionPrice, .excursionCategory {
+    color: #fff;
+}
+
+.excursionRegisterDate {
+    text-align: center;
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.excursionDescription {
+    color: #fff;
+    padding: 0 2rem;
+}
+
+.excursionButtons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    /* justify-content: end; */
+}
+
+.registerText {
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.excursionRatings {
+    background-color: #0000008c;
+    margin-top: 1rem;
+    min-width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.excursionComment {
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .excursionInformation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .excursionImage {
+        width: 400px;
+    }
+
+    .excursionShortInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        /* margin: 0 auto; */
+        margin-left: 2rem;
+    }
+
+    .excursionComment {
+        margin: 1rem;
+    }
+}
